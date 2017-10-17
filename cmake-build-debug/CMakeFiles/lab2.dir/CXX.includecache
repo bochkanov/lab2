@@ -8,6 +8,10 @@
 
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Accounting.h
 
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.cpp
+CompanyStaff.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.h
+
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.h
 Manager.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.h
@@ -16,6 +20,12 @@ TeamLeader.h
 Developer.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.h
 
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.cpp
+Developer.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.h
+string
+-
+
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.h
 string
 -
@@ -24,23 +34,45 @@ Manager.h
 TeamLeader.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.h
 
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.cpp
+Employee.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.h
+
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.h
 string
 -
+HR.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/HR.h
+Accounting.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Accounting.h
 
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/HR.h
 string
 -
+
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.cpp
+Manager.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.h
 
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.h
 string
 -
 vector
 -
+Employee.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.h
 TeamLeader.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.h
 Developer.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.h
+
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.cpp
+TeamLeader.h
+/Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.h
+string
+-
+vector
+-
 
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.h
 string
@@ -55,16 +87,8 @@ Developer.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/main.cpp
 iostream
 -
-Accounting.h
-/Users/Nikita/Desktop/CLionProjects/c++/lab2/Accounting.h
-HR.h
-/Users/Nikita/Desktop/CLionProjects/c++/lab2/HR.h
 Employee.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.h
-Manager.h
-/Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.h
-TeamLeader.h
-/Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.h
 Developer.h
 /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.h
 CompanyStaff.h

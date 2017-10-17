@@ -123,6 +123,141 @@ lab2/fast:
 	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
+CompanyStaff.o: CompanyStaff.cpp.o
+
+.PHONY : CompanyStaff.o
+
+# target to build an object file
+CompanyStaff.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/CompanyStaff.cpp.o
+.PHONY : CompanyStaff.cpp.o
+
+CompanyStaff.i: CompanyStaff.cpp.i
+
+.PHONY : CompanyStaff.i
+
+# target to preprocess a source file
+CompanyStaff.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/CompanyStaff.cpp.i
+.PHONY : CompanyStaff.cpp.i
+
+CompanyStaff.s: CompanyStaff.cpp.s
+
+.PHONY : CompanyStaff.s
+
+# target to generate assembly for a file
+CompanyStaff.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/CompanyStaff.cpp.s
+.PHONY : CompanyStaff.cpp.s
+
+Developer.o: Developer.cpp.o
+
+.PHONY : Developer.o
+
+# target to build an object file
+Developer.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Developer.cpp.o
+.PHONY : Developer.cpp.o
+
+Developer.i: Developer.cpp.i
+
+.PHONY : Developer.i
+
+# target to preprocess a source file
+Developer.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Developer.cpp.i
+.PHONY : Developer.cpp.i
+
+Developer.s: Developer.cpp.s
+
+.PHONY : Developer.s
+
+# target to generate assembly for a file
+Developer.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Developer.cpp.s
+.PHONY : Developer.cpp.s
+
+Employee.o: Employee.cpp.o
+
+.PHONY : Employee.o
+
+# target to build an object file
+Employee.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Employee.cpp.o
+.PHONY : Employee.cpp.o
+
+Employee.i: Employee.cpp.i
+
+.PHONY : Employee.i
+
+# target to preprocess a source file
+Employee.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Employee.cpp.i
+.PHONY : Employee.cpp.i
+
+Employee.s: Employee.cpp.s
+
+.PHONY : Employee.s
+
+# target to generate assembly for a file
+Employee.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Employee.cpp.s
+.PHONY : Employee.cpp.s
+
+Manager.o: Manager.cpp.o
+
+.PHONY : Manager.o
+
+# target to build an object file
+Manager.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Manager.cpp.o
+.PHONY : Manager.cpp.o
+
+Manager.i: Manager.cpp.i
+
+.PHONY : Manager.i
+
+# target to preprocess a source file
+Manager.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Manager.cpp.i
+.PHONY : Manager.cpp.i
+
+Manager.s: Manager.cpp.s
+
+.PHONY : Manager.s
+
+# target to generate assembly for a file
+Manager.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Manager.cpp.s
+.PHONY : Manager.cpp.s
+
+TeamLeader.o: TeamLeader.cpp.o
+
+.PHONY : TeamLeader.o
+
+# target to build an object file
+TeamLeader.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/TeamLeader.cpp.o
+.PHONY : TeamLeader.cpp.o
+
+TeamLeader.i: TeamLeader.cpp.i
+
+.PHONY : TeamLeader.i
+
+# target to preprocess a source file
+TeamLeader.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/TeamLeader.cpp.i
+.PHONY : TeamLeader.cpp.i
+
+TeamLeader.s: TeamLeader.cpp.s
+
+.PHONY : TeamLeader.s
+
+# target to generate assembly for a file
+TeamLeader.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/TeamLeader.cpp.s
+.PHONY : TeamLeader.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lab2"
+	@echo "... CompanyStaff.o"
+	@echo "... CompanyStaff.i"
+	@echo "... CompanyStaff.s"
+	@echo "... Developer.o"
+	@echo "... Developer.i"
+	@echo "... Developer.s"
+	@echo "... Employee.o"
+	@echo "... Employee.i"
+	@echo "... Employee.s"
+	@echo "... Manager.o"
+	@echo "... Manager.i"
+	@echo "... Manager.s"
+	@echo "... TeamLeader.o"
+	@echo "... TeamLeader.i"
+	@echo "... TeamLeader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

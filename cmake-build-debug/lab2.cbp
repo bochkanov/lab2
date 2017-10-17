@@ -80,6 +80,42 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Accounting.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/HR.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="/Users/Nikita/Desktop/CLionProjects/c++/lab2/main.cpp">
 			<Option target="lab2"/>
 		</Unit>

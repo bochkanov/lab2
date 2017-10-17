@@ -81,17 +81,147 @@ CMakeFiles/lab2.dir/main.cpp.o.provides: CMakeFiles/lab2.dir/main.cpp.o.requires
 CMakeFiles/lab2.dir/main.cpp.o.provides.build: CMakeFiles/lab2.dir/main.cpp.o
 
 
+CMakeFiles/lab2.dir/Employee.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/Employee.cpp.o: ../Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/Employee.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/Employee.cpp.o -c /Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.cpp
+
+CMakeFiles/lab2.dir/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/Employee.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.cpp > CMakeFiles/lab2.dir/Employee.cpp.i
+
+CMakeFiles/lab2.dir/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/Employee.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nikita/Desktop/CLionProjects/c++/lab2/Employee.cpp -o CMakeFiles/lab2.dir/Employee.cpp.s
+
+CMakeFiles/lab2.dir/Employee.cpp.o.requires:
+
+.PHONY : CMakeFiles/lab2.dir/Employee.cpp.o.requires
+
+CMakeFiles/lab2.dir/Employee.cpp.o.provides: CMakeFiles/lab2.dir/Employee.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Employee.cpp.o.provides.build
+.PHONY : CMakeFiles/lab2.dir/Employee.cpp.o.provides
+
+CMakeFiles/lab2.dir/Employee.cpp.o.provides.build: CMakeFiles/lab2.dir/Employee.cpp.o
+
+
+CMakeFiles/lab2.dir/Manager.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/Manager.cpp.o: ../Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/Manager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/Manager.cpp.o -c /Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.cpp
+
+CMakeFiles/lab2.dir/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/Manager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.cpp > CMakeFiles/lab2.dir/Manager.cpp.i
+
+CMakeFiles/lab2.dir/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/Manager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nikita/Desktop/CLionProjects/c++/lab2/Manager.cpp -o CMakeFiles/lab2.dir/Manager.cpp.s
+
+CMakeFiles/lab2.dir/Manager.cpp.o.requires:
+
+.PHONY : CMakeFiles/lab2.dir/Manager.cpp.o.requires
+
+CMakeFiles/lab2.dir/Manager.cpp.o.provides: CMakeFiles/lab2.dir/Manager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Manager.cpp.o.provides.build
+.PHONY : CMakeFiles/lab2.dir/Manager.cpp.o.provides
+
+CMakeFiles/lab2.dir/Manager.cpp.o.provides.build: CMakeFiles/lab2.dir/Manager.cpp.o
+
+
+CMakeFiles/lab2.dir/TeamLeader.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/TeamLeader.cpp.o: ../TeamLeader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/TeamLeader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/TeamLeader.cpp.o -c /Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.cpp
+
+CMakeFiles/lab2.dir/TeamLeader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/TeamLeader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.cpp > CMakeFiles/lab2.dir/TeamLeader.cpp.i
+
+CMakeFiles/lab2.dir/TeamLeader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/TeamLeader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nikita/Desktop/CLionProjects/c++/lab2/TeamLeader.cpp -o CMakeFiles/lab2.dir/TeamLeader.cpp.s
+
+CMakeFiles/lab2.dir/TeamLeader.cpp.o.requires:
+
+.PHONY : CMakeFiles/lab2.dir/TeamLeader.cpp.o.requires
+
+CMakeFiles/lab2.dir/TeamLeader.cpp.o.provides: CMakeFiles/lab2.dir/TeamLeader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/TeamLeader.cpp.o.provides.build
+.PHONY : CMakeFiles/lab2.dir/TeamLeader.cpp.o.provides
+
+CMakeFiles/lab2.dir/TeamLeader.cpp.o.provides.build: CMakeFiles/lab2.dir/TeamLeader.cpp.o
+
+
+CMakeFiles/lab2.dir/Developer.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/Developer.cpp.o: ../Developer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab2.dir/Developer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/Developer.cpp.o -c /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.cpp
+
+CMakeFiles/lab2.dir/Developer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/Developer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.cpp > CMakeFiles/lab2.dir/Developer.cpp.i
+
+CMakeFiles/lab2.dir/Developer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/Developer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nikita/Desktop/CLionProjects/c++/lab2/Developer.cpp -o CMakeFiles/lab2.dir/Developer.cpp.s
+
+CMakeFiles/lab2.dir/Developer.cpp.o.requires:
+
+.PHONY : CMakeFiles/lab2.dir/Developer.cpp.o.requires
+
+CMakeFiles/lab2.dir/Developer.cpp.o.provides: CMakeFiles/lab2.dir/Developer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Developer.cpp.o.provides.build
+.PHONY : CMakeFiles/lab2.dir/Developer.cpp.o.provides
+
+CMakeFiles/lab2.dir/Developer.cpp.o.provides.build: CMakeFiles/lab2.dir/Developer.cpp.o
+
+
+CMakeFiles/lab2.dir/CompanyStaff.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/CompanyStaff.cpp.o: ../CompanyStaff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab2.dir/CompanyStaff.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/CompanyStaff.cpp.o -c /Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.cpp
+
+CMakeFiles/lab2.dir/CompanyStaff.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/CompanyStaff.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.cpp > CMakeFiles/lab2.dir/CompanyStaff.cpp.i
+
+CMakeFiles/lab2.dir/CompanyStaff.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/CompanyStaff.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nikita/Desktop/CLionProjects/c++/lab2/CompanyStaff.cpp -o CMakeFiles/lab2.dir/CompanyStaff.cpp.s
+
+CMakeFiles/lab2.dir/CompanyStaff.cpp.o.requires:
+
+.PHONY : CMakeFiles/lab2.dir/CompanyStaff.cpp.o.requires
+
+CMakeFiles/lab2.dir/CompanyStaff.cpp.o.provides: CMakeFiles/lab2.dir/CompanyStaff.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/CompanyStaff.cpp.o.provides.build
+.PHONY : CMakeFiles/lab2.dir/CompanyStaff.cpp.o.provides
+
+CMakeFiles/lab2.dir/CompanyStaff.cpp.o.provides.build: CMakeFiles/lab2.dir/CompanyStaff.cpp.o
+
+
 # Object files for target lab2
 lab2_OBJECTS = \
-"CMakeFiles/lab2.dir/main.cpp.o"
+"CMakeFiles/lab2.dir/main.cpp.o" \
+"CMakeFiles/lab2.dir/Employee.cpp.o" \
+"CMakeFiles/lab2.dir/Manager.cpp.o" \
+"CMakeFiles/lab2.dir/TeamLeader.cpp.o" \
+"CMakeFiles/lab2.dir/Developer.cpp.o" \
+"CMakeFiles/lab2.dir/CompanyStaff.cpp.o"
 
 # External object files for target lab2
 lab2_EXTERNAL_OBJECTS =
 
 lab2: CMakeFiles/lab2.dir/main.cpp.o
+lab2: CMakeFiles/lab2.dir/Employee.cpp.o
+lab2: CMakeFiles/lab2.dir/Manager.cpp.o
+lab2: CMakeFiles/lab2.dir/TeamLeader.cpp.o
+lab2: CMakeFiles/lab2.dir/Developer.cpp.o
+lab2: CMakeFiles/lab2.dir/CompanyStaff.cpp.o
 lab2: CMakeFiles/lab2.dir/build.make
 lab2: CMakeFiles/lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nikita/Desktop/CLionProjects/c++/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/lab2.dir/build: lab2
 .PHONY : CMakeFiles/lab2.dir/build
 
 CMakeFiles/lab2.dir/requires: CMakeFiles/lab2.dir/main.cpp.o.requires
+CMakeFiles/lab2.dir/requires: CMakeFiles/lab2.dir/Employee.cpp.o.requires
+CMakeFiles/lab2.dir/requires: CMakeFiles/lab2.dir/Manager.cpp.o.requires
+CMakeFiles/lab2.dir/requires: CMakeFiles/lab2.dir/TeamLeader.cpp.o.requires
+CMakeFiles/lab2.dir/requires: CMakeFiles/lab2.dir/Developer.cpp.o.requires
+CMakeFiles/lab2.dir/requires: CMakeFiles/lab2.dir/CompanyStaff.cpp.o.requires
 
 .PHONY : CMakeFiles/lab2.dir/requires
 

@@ -2,8 +2,10 @@
 #define LAB2_EMPLOYEE_H
 
 #include <string>
+#include "HR.h"
+#include "Accounting.h"
 
-class Employee : public Accounting, public HR {
+class Employee : public HR, public Accounting {
 public:
 
     Employee (std::string last_name_, std::string first_name_, std::string e_mail_,
@@ -11,27 +13,27 @@ public:
 
     //For Accounting
     //Setters
-    void setCoeff (double new_coeff);
-    void setHours (double new_hours);
+    virtual void setCoeff (double new_coeff);
+    virtual void setHours (double new_hours);
 
     //Getters
-    double getHours();
-    double getCoeff();
+    virtual double getHours();
+    virtual double getCoeff();
 
     //Other methods
-    double calculateSalary (double hours, double coeff);
+    virtual double calculateSalary ();
 
 
     //For HR
     //Setters
-    void setLastName (std::string last_name_);
-    void setFirstName (std::string first_name_);
-    void setEMail (std::string e_mail_);
+    virtual void setLastName (std::string last_name_);
+    virtual void setFirstName (std::string first_name_);
+    virtual void setEMail (std::string e_mail_);
 
     //Getters
-    std::string getLastName ();
-    std::string getFirstName ();
-    std::string getEMail ();
+    virtual std::string getLastName ();
+    virtual std::string getFirstName ();
+    virtual std::string getEMail ();
 
 
 protected:

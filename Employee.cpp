@@ -1,23 +1,22 @@
 #include "Employee.h"
 
-#include <string>
-
-    Employee::Employee (std::string last_name_, std::string first_name_, std::string e_mail_,
+    Employee::Employee (std::string last_name_ , std::string first_name_, std::string e_mail_,
                         double hours_, double coeff_) :
                         last_name(last_name_), first_name(first_name_), e_mail(e_mail_),
                         hours(hours_), coeff(coeff_) {};
 
+
     //For Accounting
     //Setters
     void Employee::setCoeff (double new_coeff) { coeff = new_coeff;}
-    void Employee::setHours (double new_hours) { coeff = new_hours;}
+    void Employee::setHours (double new_hours) { hours = new_hours;}
 
     //Getters
     double Employee::getHours() { return hours;}
     double Employee::getCoeff() { return coeff;}
 
     //Other methods
-    double Employee::calculateSalary (double hours, double coeff) { return hours*coeff; }
+    double Employee::calculateSalary () { return hours*coeff; }
 
 
     //For HR

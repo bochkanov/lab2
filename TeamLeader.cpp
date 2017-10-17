@@ -30,7 +30,10 @@
     }
 
     void TeamLeader::UnsetDeveloper(Developer *prev_developer) {
-        for (auto i : developers)
-            if (i == prev_developer)
-                developers.erase(this);
+        for (int i = 0; i < developers.size(); ++i){
+            if(developers[i] == prev_developer) {
+                developers.erase(developers.begin()+i);
+            } else
+                break;
+        }
     }

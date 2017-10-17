@@ -10,7 +10,7 @@ public:
     virtual void setCoeff (double) = 0;
     virtual void setHours (double) = 0;
 
-    virtual double calculateSalary (double, double) = 0;
+    virtual double calculateSalary () = 0;
 
 };
 
