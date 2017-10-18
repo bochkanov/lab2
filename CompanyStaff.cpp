@@ -47,8 +47,6 @@ void CompanyStaff::CreateTeamLeader(std::string last_name_, std::string first_na
     manager_->SetTeamLeader(new_team_leader);
 }
 
-TeamLeader* CompanyStaff::GetTeamLeader(int team_leader_num) { return team_leaders[team_leader_num];}
-
 std::vector<TeamLeader*> CompanyStaff::GetTeamLeaders() { return team_leaders;}
 
 void CompanyStaff::DismissTeamLeader(TeamLeader* prev_team_leader, Manager* manager) {
@@ -68,8 +66,6 @@ void CompanyStaff::CreateManager(std::string last_name_, std::string first_name_
     Manager* new_manager = new Manager (last_name_, first_name_, e_mail_, hours_, coeff_);
     managers.push_back(new_manager);
 }
-
-Manager* CompanyStaff::GetManager(int manager_num) { return managers[manager_num];}
 
 std::vector<Manager*> CompanyStaff::GetManagers() { return managers;}
 

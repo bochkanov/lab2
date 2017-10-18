@@ -26,6 +26,7 @@ public:
     void SetDeveloper (Developer * new_developer);
 
     void UnsetDeveloper (Developer * prev_developer);
+    void UnsetManager(Manager * prev_manager);
 
 private:
     std::vector<Developer*> developers;

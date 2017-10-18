@@ -21,7 +21,7 @@ public:
 
     //Other methods
     void SetTeamLeader (TeamLeader * new_team_leader);
-    void UpsetTeamLeader (TeamLeader * old_team_leader);
+    void UnsetTeamLeader (TeamLeader * old_team_leader);
 
 private:
     TeamLeader* team_leader;

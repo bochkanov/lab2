@@ -18,4 +18,9 @@
         }
     }
 
+    void Developer::UnsetTeamLeader(TeamLeader *old_team_leader) {
+        if (old_team_leader == team_leader) {
+            team_leader = nullptr;
+        }
+    }
 

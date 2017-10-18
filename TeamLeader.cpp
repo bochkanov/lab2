@@ -37,3 +37,8 @@
                 break;
         }
     }
+
+    void TeamLeader::UnsetManager(Manager * prev_manager) {
+        if (prev_manager == manager)
+            manager = nullptr;
+    }
