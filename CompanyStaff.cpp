@@ -13,11 +13,12 @@ void CompanyStaff::ChangeTeamLeader(TeamLeader *new_team_leader, Developer *deve
 void CompanyStaff::CreateDeveloper(std::string last_name_, std::string first_name_, std::string e_mail_,
                                    double hours_, double coeff_, TeamLeader* team_leader_) {
     Developer* new_developer = new Developer (last_name_, first_name_, e_mail_, hours_, coeff_, team_leader_);
+    for (auto i : developers)
+        if (i == new_developer)
+            break;
     developers.push_back(new_developer);
     team_leader_->SetDeveloper(new_developer);
 }
-
-Developer* CompanyStaff::GetDeveloper(int developer_num) { return developers[developer_num];}
 
 std::vector<Developer*> CompanyStaff::GetDevelopers() { return developers;}
 
@@ -43,6 +44,9 @@ void CompanyStaff::ChangeManager(Manager *new_manager, TeamLeader *team_leader) 
 void CompanyStaff::CreateTeamLeader(std::string last_name_, std::string first_name_, std::string e_mail_,
                                     double hours_, double coeff_, Manager *manager_) {
     TeamLeader* new_team_leader = new TeamLeader (last_name_, first_name_, e_mail_, hours_, coeff_, manager_);
+    for (auto i : team_leaders)
+        if (i == new_team_leader)
+            break;
     team_leaders.push_back(new_team_leader);
     manager_->SetTeamLeader(new_team_leader);
 }
@@ -64,6 +68,9 @@ void CompanyStaff::DismissTeamLeader(TeamLeader* prev_team_leader, Manager* mana
 void CompanyStaff::CreateManager(std::string last_name_, std::string first_name_, std::string e_mail_,
                                  double hours_, double coeff_) {
     Manager* new_manager = new Manager (last_name_, first_name_, e_mail_, hours_, coeff_);
+    for (auto i : managers)
+        if (i == new_manager)
+            break;
     managers.push_back(new_manager);
 }
 

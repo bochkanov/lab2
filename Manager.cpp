@@ -9,6 +9,9 @@
 
     //Other methods
     void Manager::SetTeamLeader (TeamLeader * new_team_leader) {
+        for (auto i : team_leaders)
+            if (i == new_team_leader)
+                break;
         team_leaders.push_back(new_team_leader);
         new_team_leader->SetManager(this);
     }
